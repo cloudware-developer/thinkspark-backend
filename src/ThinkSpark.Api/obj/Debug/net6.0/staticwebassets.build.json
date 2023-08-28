@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gmsrHiqo0amCi7acAqEiq+StHbkdf5kPZG3Ua2uIAX4=",
+  "Source": "ThinkSpark.Api",
+  "BasePath": "_content/ThinkSpark.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

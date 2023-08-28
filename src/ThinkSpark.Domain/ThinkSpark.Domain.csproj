@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="Users\Interfaces\" />
+		<Folder Include="Users\Models\" />
+		<Folder Include="Users\Services\" />
+		<Folder Include="Users\Responses\" />
+		<Folder Include="Users\Queries\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="FastMapper.NetCore" Version="1.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+</Project>

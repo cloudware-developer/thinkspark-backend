@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkSpark.Api", "src\ThinkSpark.Api\ThinkSpark.Api.csproj", "{1857845C-90E3-4DF2-A6A7-AA7947AB5410}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Interface", "01 - Interface", "{75D1A318-02EE-4176-AB51-0802DB98C399}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{00D3C948-056D-4C95-A0F4-DFC85ABDD0E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{ADDA14BD-D5AC-4E88-8537-0A614FAAAC7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Repository", "04 - Repository", "{3DF712E5-4832-4EAD-BBE6-688EFF9CDE9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkSpark.Repositories", "src\ThinkSpark.Repositories\ThinkSpark.Repositories.csproj", "{C0C433FE-A0D5-4B76-8E60-47988F2D65C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkSpark.Application", "src\ThinkSpark.Application\ThinkSpark.Application.csproj", "{4FDC0820-288F-467B-A594-9A1417691B7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkSpark.Shared", "src\ThinkSpark.Shared\ThinkSpark.Shared.csproj", "{484FEDA8-14C7-41D3-A838-D3B7BA7E3172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1857845C-90E3-4DF2-A6A7-AA7947AB5410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1857845C-90E3-4DF2-A6A7-AA7947AB5410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1857845C-90E3-4DF2-A6A7-AA7947AB5410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1857845C-90E3-4DF2-A6A7-AA7947AB5410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C433FE-A0D5-4B76-8E60-47988F2D65C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C433FE-A0D5-4B76-8E60-47988F2D65C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C433FE-A0D5-4B76-8E60-47988F2D65C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C433FE-A0D5-4B76-8E60-47988F2D65C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDC0820-288F-467B-A594-9A1417691B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDC0820-288F-467B-A594-9A1417691B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDC0820-288F-467B-A594-9A1417691B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDC0820-288F-467B-A594-9A1417691B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484FEDA8-14C7-41D3-A838-D3B7BA7E3172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484FEDA8-14C7-41D3-A838-D3B7BA7E3172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484FEDA8-14C7-41D3-A838-D3B7BA7E3172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484FEDA8-14C7-41D3-A838-D3B7BA7E3172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1857845C-90E3-4DF2-A6A7-AA7947AB5410} = {75D1A318-02EE-4176-AB51-0802DB98C399}
+		{C0C433FE-A0D5-4B76-8E60-47988F2D65C4} = {3DF712E5-4832-4EAD-BBE6-688EFF9CDE9D}
+		{4FDC0820-288F-467B-A594-9A1417691B7A} = {00D3C948-056D-4C95-A0F4-DFC85ABDD0E6}
+		{484FEDA8-14C7-41D3-A838-D3B7BA7E3172} = {ADDA14BD-D5AC-4E88-8537-0A614FAAAC7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1F574B0-DB4C-489C-8FF2-13CCCE380FED}
+	EndGlobalSection
+EndGlobal
